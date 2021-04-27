@@ -28,3 +28,8 @@
 * Para componentes que devem existir em todas as páginas usar `_app`
 * `_app` executa todas as vezes que um componente e exibido ou reexibido em tela
 * Para componentes/recurso deve usar `_document` no formato de classe
+
+## Estilos globais do app
+
+* Se o nome do arquivo estiver com o *module* significa que aquela estilização é exclusiva para um único componente, para os *estilos globais* o nome do arquivo não pode ter module
+
