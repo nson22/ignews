@@ -36,3 +36,5 @@
 ## Componente: Header
 
 * No *next* as imagens sempre ficam na pasta *public*
+
+## Componente: SignInButton
