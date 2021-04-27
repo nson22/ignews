@@ -33,3 +33,6 @@
 
 * Se o nome do arquivo estiver com o *module* significa que aquela estilização é exclusiva para um único componente, para os *estilos globais* o nome do arquivo não pode ter module
 
+## Componente: Header
+
+* No *next* as imagens sempre ficam na pasta *public*
