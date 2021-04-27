@@ -20,3 +20,11 @@
 * `yarn add sass`
 * sass precido com yaml | scss usa {}
 * Pode usar modelo cascata nos elementos e componentes
+
+## Configurando fonte externa
+
+* *File system root*
+* *pages* - funciona como rotas da aplicação
+* Para componentes que devem existir em todas as páginas usar `_app`
+* `_app` executa todas as vezes que um componente e exibido ou reexibido em tela
+* Para componentes/recurso deve usar `_document` no formato de classe
