@@ -31,7 +31,8 @@
 
 ## Estilos globais do app
 
-* Se o nome do arquivo estiver com o *module* significa que aquela estilização é exclusiva para um único componente, para os *estilos globais* o nome do arquivo não pode ter module
+* Se o nome do arquivo estiver com o *module* significa que aquela estilização é exclusiva para um único componente, para os *estilos globais* o nome do arquivo não pode ter module.
+* É o contexto que define os estilos dos componentes e não o componente em si.
 
 ## Componente: Header
 
