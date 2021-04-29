@@ -44,4 +44,11 @@
 
 ## Componente: SubscribeButton
 
+## Configurando Stripe
 
+`yarn add stripe`
+
+* `useEffect` faz chamada a api apenas no navegador
+* Serve Side Render (SSR) funciona apenas em páginas do NextJS (pages), mas deve-se observar se é realmente necessário o uso do SSR ou de `hooks do react` como o `useEffect`, que pode variar da necessidade do proejto.
+* Se for necessário repassar qualquer informação do SSR para um componente usamos o `getServerSideProps` como função e usar a tipagem do NextJS para typescript
+* Exportar a chave do Stripe
