@@ -46,9 +46,44 @@
 
 ## Configurando Stripe
 
-`yarn add stripe`
+`yarn add stripe` </br>
+Site do Stripe
+
+## Consumindo API do Stripe (SSR)
 
 * `useEffect` faz chamada a api apenas no navegador
-* Serve Side Render (SSR) funciona apenas em páginas do NextJS (pages), mas deve-se observar se é realmente necessário o uso do SSR ou de `hooks do react` como o `useEffect`, que pode variar da necessidade do proejto.
+* Serve Side Render (SSR) funciona apenas em **páginas do NextJS (pages)**, mas deve-se observar se é realmente necessário o uso do SSR ou de `hooks do react` como o `useEffect`, que pode variar da necessidade do proejto.
 * Se for necessário repassar qualquer informação do SSR para um componente usamos o `getServerSideProps` como função e usar a tipagem do NextJS para typescript
 * Exportar a chave do Stripe
+* Consumir o Stripe dentro de `getServerSideProps`
+* Valores monetários em banco de dados é preferivél salvar em centavos e depois converter 
+
+## Static Site Generation (SSG)
+* Semelhante ao SSR, porém o nextJS salva um página estatica e serve aos clientes uma página nova, apenas se as informações tiveram atualização.
+
+### 3 modos de fazer chamada a API no nextJS
+* Client-Side
+* Server-Side (SSR)
+* Static Site Generation (SSG) 
+
+## API routes no Next.js
+
+* API routing
+* É usado quando existe a necessidade de operação com dados sensivéis
+* `api` -> Todos os arquivos criados na pasta `api` do projeto se tornam rotas no nextJS 
+* Serveless
+
+
+## Estratégias de autenticação
+
+* JWT (Local Storage)
+* Next Auth (Social)
+* Cognito, Auth0
+
+## Autenticação com Next Auth
+
+* `yarn add next-auth`
+* [NextAuth0 Docs](https://next-auth.js.org/getting-started/example)
+* Github scope
+* Confgiuração do login do usuário: `signIn()`, `useSession()`
+* Configurar o provider de autenticação do Next nos lugares onde a aplicação vai usar as informções: `pageProps.session`
