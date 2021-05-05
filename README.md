@@ -87,3 +87,12 @@ Site do Stripe
 * Github scope
 * Confgiuração do login do usuário: `signIn()`, `useSession()`
 * Configurar o provider de autenticação do Next nos lugares onde a aplicação vai usar as informções: `pageProps.session`
+
+## Escolhendo um banco de dados
+
+* FaunaDB - HTTP
+
+## Configurando o FaunaDB
+
+* `yarn add faunadb`
+* Criar o serviço do FaunaDB
