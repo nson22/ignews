@@ -96,3 +96,9 @@ Site do Stripe
 
 * `yarn add faunadb`
 * Criar o serviço do FaunaDB
+
+## Salvando usuário no banco
+
+* ...nextauth.js => `callbacks` são execuados de forma automática quando o usuário executa alguma ação
+
+## Verificando usuário duplicado
