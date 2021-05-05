@@ -102,3 +102,15 @@ Site do Stripe
 * ...nextauth.js => `callbacks` são execuados de forma automática quando o usuário executa alguma ação
 
 ## Verificando usuário duplicado
+
+* Utilizando o Fauna query language
+
+## Gerando sessão de checkout
+
+* Verificar se o metodo (Requisão) é um **POST**
+* Pegar o usuario logado atraves do Cookie `getSession({ req })`
+* O next salva os dados do usuarios nos cookies dentro do mesmo dominio
+
+## Redirecionando para o Stripe
+
+* Para buscar o usuario nas API Routes é necessario fazer um `fecth` ou usar o `axios` `yarn add axios`
