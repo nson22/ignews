@@ -114,3 +114,4 @@ Site do Stripe
 ## Redirecionando para o Stripe
 
 * Para buscar o usuario nas API Routes é necessario fazer um `fecth` ou usar o `axios` `yarn add axios`
+* usar stripe-js `yarn add @stripe/stripe-js`. Biblioteca pra o front-end
