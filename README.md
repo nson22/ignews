@@ -122,3 +122,7 @@ Antes de salvar o usuario verificar se nao existe no banco
 
 ## Webhooks do Stripe
 
+* Serviço de uma API que avisa uma aplicação sobre determinada ação, por exemplo o cancelamento de uma inscrição por falta de pagamento
+
+## Ouvindo eventos do Stripe
+* Webhooks e uma rota como qualquer outra aplicacao
